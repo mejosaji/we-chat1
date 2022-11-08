@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fira+Sans:wght@900&family=Josefin+Sans&family=Montserrat&family=PT+Sans+Caption&family=Plus+Jakarta+Sans&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width:100%;
+    background-image: url(/We_chat/mario-gogh-VBLHICVh-lI-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter: blur(10px);   */
+}
+
+
+.container{
+    width:100%;
+    filter: none;
+    display:flex;
+    justify-content: space-evenly;
+
+    height:100vh;
+    padding:10vh 0;
+    margin:0px 100px;
+}
+.container img{
+    width:auto;
+    height:80vh;
+}
+.second_column{
+    display:flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding:0 200px;
+}
+.second_column img{
+    width:100px;
+    height: auto;
+    margin:0 200px;
+
+}
+.text_inner{
+    font-family: Montserrat;
+    font-size: 3rem;
+    line-height: 3rem;
+    color:white;
+}
+.btn_inner{
+    display: flex;
+    justify-content: space-around;
+    margin:10px 20px;
+    padding:0 20px;
+}
+.btn_inner button{
+    display:flex;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+    width:170px;
+}
+.btn_inner button:hover{
+    background-color: rgba(0,0,0,0.6);
+}
+.head-1{
+    font-size: 0.8rem;
+    margin:auto 13px;
+}
+.head-2{
+    font-size: 1.5rem;
+    margin:auto 5px;
+}
+.desktop{
+    display:flex;
+    justify-content: center;
+    margin:50px 0;
+}
+.windows{
+    width:70px;
+    height:70px;
+    background-image: url(We_chat/windows.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    /* border-color: white; */
+    border-style: solid;
+    filter: invert(1);
+}
+.apple{
+    width:70px;
+    height:70px;
+    background-image: url(We_chat/apple.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    /* border-color: white; */
+    border-style: solid;
+    filter: invert(1);
+}
+.windows:hover{
+    background-color: rgba(255, 255, 255, 0.582);
+}
+.apple:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* ------------------------------------------------------------------------------------- */
+footer{
+    display:flex;
+    justify-content: space-around;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    display: inline-block;
+    padding:5px 8px;
+    color: rgb(197, 194, 194);
+}
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: rgb(197, 194, 194);
+    padding:5px 8px;
+}
+footer div{
+    color: rgb(197, 194, 194);
+    padding:5px 8px;
+
+}

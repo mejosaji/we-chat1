@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    width: 25%;
+    height: 500px;
+    background-color: aqua;
+    background-image: url(/mario-gogh-VBLHICVh-lI-unsplash.jpg);
+    background-size: cover;
+    margin: 100px 20px;
+
+}
+.two{
+    width: 25%;
+    height: 500px;
+    background-color: red;
+
+}
+.three{
+    width: 25%;
+    height: 500px;
+    background-color: rgb(255, 0, 140);
+
+}
